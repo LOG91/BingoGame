@@ -1,0 +1,4 @@
+.bingo-table {
+  display: flex;
+  flex-wrap: wrap;
+}

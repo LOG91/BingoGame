@@ -1,0 +1,17 @@
+.bingo-background {
+  background-color: #ccc;
+  width: 25rem;
+  height: 25rem;
+  margin: 5rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.player-id {
+  margin: 0 auto;
+  width: 5rem;
+  font-size: 1.2rem;
+  height: 3rem;
+  margin-top: 3rem;
+  background-color: #108699;
+}
