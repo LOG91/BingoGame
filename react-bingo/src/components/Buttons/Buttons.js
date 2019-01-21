@@ -1,12 +1,19 @@
 import React from "react";
 import "./Buttons.css";
 
-const Buttons = onStart => {
-  return (
-    <div className="btn-start" onClick={onStart}>
-      Button
-    </div>
-  );
+const Buttons = ({ isStart, onShuffle }) => {
+  if (isStart)
+    return (
+      <div className="btn-start" onClick={onShuffle}>
+        Restart
+      </div>
+    );
+  else
+    return (
+      <div className="btn-start" onClick={onShuffle}>
+        Start
+      </div>
+    );
 };
 
 export default Buttons;

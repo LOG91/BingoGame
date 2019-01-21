@@ -1,6 +1,7 @@
 import React from "react";
 import "./BingoBackground.css";
 import BingoTable from "../BingoTable/BingoTable";
+import BingoListContainer from "../../containers/BingoListContainer";
 
 const BingoBackground = ({ playerList, onShuffle }) => {
   const bingo = playerList.map((player, i) => {
@@ -10,6 +11,7 @@ const BingoBackground = ({ playerList, onShuffle }) => {
         <div key={i} className="bingo-background">
           <BingoTable tableData={player.tableData} />
         </div>
+        <BingoListContainer index={i} />
       </div>
     );
   });

@@ -1,3 +1,6 @@
 .btn-start {
-  margin: 4rem;
+  margin: 7rem;
+  margin-left: 0;
+  border: 1px solid #ccc;
+  height: 2rem;
 }

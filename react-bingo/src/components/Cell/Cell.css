@@ -1,5 +1,9 @@
 .cell {
   width: 5rem;
   height: 5rem;
-  background-color: #108599;
+  margin: 0.1rem;
+  background-color: #92abaf;
+}
+.erased {
+  background-color: #124899;
 }
